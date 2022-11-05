@@ -1,0 +1,2795 @@
+fileFormatVersion: 2
+guid: a8a59a83f980a2043976d633ffcfd853
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Boat_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 675
+        width: 21
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3db6a68371413224ebaef4ff21a541e3
+      internalID: 198369684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Boat_1
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 674
+        width: 29
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeb10807b6c3eb040af17c346d2fdaba
+      internalID: -575240333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Boat_2
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 675
+        width: 28
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 176275081fedbfa498ba3c1a6e0b9471
+      internalID: -578256201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Boat_3
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 676
+        width: 24
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 001d9113e03adca4f8ec72ea994ee632
+      internalID: 840969724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Boat_4
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 675
+        width: 28
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7150a102078eb8548b225a6874c3b986
+      internalID: 116201788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Boat_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 674
+        width: 29
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3df9c800c0449984589b4eaed589c0b0
+      internalID: -875830289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Boat_6
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 675
+        width: 28
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9439b170d64e3c41be1365f834ae4ba
+      internalID: -293764319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Boat_7
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 676
+        width: 29
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad77277b750cde44a892c6db11a0a6a8
+      internalID: 1219578526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Boat_8
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 675
+        width: 28
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e3ff6bf7399d6345a08ca03382bc820
+      internalID: -1376838795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Boat_47
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 609
+        width: 43
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bb2bda7a3264704291a3fe10a15cd4f
+      internalID: -2135290771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Boat_48
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 608
+        width: 43
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8867771d61c65ab4dad4d6a515220703
+      internalID: -1228812770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Boat_49
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 609
+        width: 43
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a738e8515618e64182ab7df41e5f6f9
+      internalID: 1895363847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Boat_50
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 610
+        width: 43
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 580c7666cacc1204bb3b1a3920ce2bdd
+      internalID: -1461873784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Boat_51
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 609
+        width: 43
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0eea950aad4b5148bb7a7e530486688
+      internalID: -2086286448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Boat_52
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 608
+        width: 43
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4ea4abcbd3844d41a702d1e0f775419
+      internalID: -1251786312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Boat_53
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 609
+        width: 43
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37a02718dc7680c48aa8ae44de08689c
+      internalID: -1894768417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Boat_54
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 610
+        width: 43
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a7b3c8a4c1ccc8458f27b53dcae6239
+      internalID: -1110509991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Boat_55
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 609
+        width: 43
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cb82e41e9e9d6f46a255eceef0d0f9d
+      internalID: 285870662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Boat_56
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 537
+        width: 62
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b675d0ae629ea8419d16769d9d7383a
+      internalID: -479265607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Boat_57
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 538
+        width: 62
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ed60865b65bf0443836225a98a08907
+      internalID: -1759487537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Boat_58
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 539
+        width: 62
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3086035e4e3a06498641cb0c58dda78
+      internalID: -691214435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Boat_59
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 540
+        width: 62
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47e33c73fc012094a924d60d40b96b92
+      internalID: 1021089845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Boat_60
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 539
+        width: 62
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f91f1630525119146baff27ede758691
+      internalID: 1590741765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Boat_61
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 538
+        width: 62
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe35aa13b8413e244b87425126693551
+      internalID: -57011986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Boat_62
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 539
+        width: 62
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 705cd9365d195774eaf1154b7cf7bf28
+      internalID: -1482210561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Boat_63
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 538
+        width: 62
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5498c872c270b3246926cf22afa24763
+      internalID: 1734354857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Boat_64
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 540
+        width: 62
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44324e97244a2484a8b7fdb64ff4c06c
+      internalID: 1328595792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Boat_65
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 470
+        width: 40
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7898cb7d6b0d2c6418da6ea8860a8bc5
+      internalID: 56331264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Boat_66
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 471
+        width: 40
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e01440c2d5e97fa4b98761503f8e9f1b
+      internalID: 1686950551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Boat_67
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 471
+        width: 40
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab6da81182dd7bc4bb42efa60a993df7
+      internalID: 1317872693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Boat_68
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 471
+        width: 40
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ff7bbd71144e7842b705c496b3d97cd
+      internalID: -510976987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Boat_69
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 471
+        width: 40
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59dcdb32f6be14f4aa7cd7f95e688406
+      internalID: -1830618183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Boat_70
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 470
+        width: 40
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 492911f38a2a5a64dac14433bd7851c3
+      internalID: 18708998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Boat_71
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 471
+        width: 40
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6caf8756a42bb6f4a9b6883f8dc3c531
+      internalID: -85387058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Boat_72
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 471
+        width: 40
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13dc61840811a8e44848f368d651e5c6
+      internalID: 539159380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Boat_73
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 471
+        width: 40
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07e68e1f0d691844cb0d70c659cac907
+      internalID: 701829945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Boat_87
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 394
+        width: 19
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15baa3656dd148e48b96bbf09d203bfc
+      internalID: -1189071406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Boat_88
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 395
+        width: 26
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66f9bcde7478a4f40888129d5554f30f
+      internalID: -462188924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Boat_89
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 394
+        width: 28
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c9763c163bc519488aac5e75546f180
+      internalID: -452349160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Boat_90
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 393
+        width: 31
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56cf331c0bcb4444ca18c2444fe1b710
+      internalID: -1561733559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Boat_91
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 394
+        width: 28
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7b8e3e7283d29243937a99b28273257
+      internalID: -396777053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Boat_92
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 395
+        width: 26
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c4dd44ffa7104c4aaff8ec218d258d5
+      internalID: -1747772911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Boat_93
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 394
+        width: 28
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d85187513b0e3e94d8056450e579cc61
+      internalID: -217709683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Boat_94
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 393
+        width: 31
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e6380370d5b3cd45b7890b52cad62b6
+      internalID: 112434575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Boat_95
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 394
+        width: 28
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aea7585a99e2924ab83f6e505a73163
+      internalID: 84804597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Boat_130
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 327
+        width: 61
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de97ef64a88120845a845be55d90c057
+      internalID: -1897545009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Boat_131
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 328
+        width: 67
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4895762f572015b4ea2637f5e5f13ebc
+      internalID: 5734233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Boat_132
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 329
+        width: 67
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d6eb5db31d01ca47b962d76c5e5f969
+      internalID: 1794168438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Boat_133
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 330
+        width: 60
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ddf5d5e34672c04ab00b02619bbac5e
+      internalID: 819348353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Boat_134
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 329
+        width: 67
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3be10cf7c44319f4c86453deaac37e3d
+      internalID: -725847587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Boat_135
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 329
+        width: 66
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7183036e0701c045b8156d34e9e82c5
+      internalID: 1374096641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Boat_136
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 330
+        width: 67
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7faa32e3573d09d44a82ec3b56e8596a
+      internalID: -2094201921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Boat_137
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 330
+        width: 62
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22b055511ad51464a80d7cba81970206
+      internalID: -1754329143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Boat_138
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 329
+        width: 66
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9e92398f88643647864fceeeed35a6e
+      internalID: -1464671163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Boat_139
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 282
+        width: 64
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c18e4bff49892d4da2dbda5676897dd
+      internalID: 1209918870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Boat_140
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 282
+        width: 68
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25c3dcad43030864f904f53317b33a9a
+      internalID: -1334897484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Boat_141
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 283
+        width: 66
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f267dbb718997ab40a19b7211e7e8700
+      internalID: -1393349261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Boat_142
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 284
+        width: 64
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83b4e328ac71c9b4cb5d23179f67773c
+      internalID: 955499431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Boat_143
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 283
+        width: 67
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cecbb5f987b6f0143a3ff9ca44df8456
+      internalID: -2120656401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Boat_144
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 282
+        width: 68
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dae3079b4911db48bd3531edc3b4cad
+      internalID: 1663363766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Boat_145
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 284
+        width: 66
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 596c35aa153189e45bfd955d82367ec3
+      internalID: 1926861529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Boat_146
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 284
+        width: 64
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da13099b914d8ff4e847152bb5b46d0f
+      internalID: -55801507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Boat_147
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 283
+        width: 67
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e17ce877f2185842b3ff0703ed49ed8
+      internalID: -1609748370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Boat_148
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 234
+        width: 74
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38be9219488b73b44944ba331613d30c
+      internalID: -1922360362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Boat_149
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 234
+        width: 85
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f92a1a1b3a17704d91b66456d87ee89
+      internalID: -1141823328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Boat_150
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 237
+        width: 87
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12b12ef065befc74ebc5d3c167843434
+      internalID: -280527621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Boat_151
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 238
+        width: 84
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c9df1ea374c68646af12604fed8cbbb
+      internalID: -1194146457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Boat_152
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 235
+        width: 86
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bc1c82d086799748addf51e53af50ee
+      internalID: -1873656640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Boat_153
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 234
+        width: 85
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba6ae9df597d71c479bc3bd83ad81a09
+      internalID: 1789558658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Boat_154
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 235
+        width: 86
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 711381fd20095a64bafb4d286b46dbf8
+      internalID: 1827225360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Boat_155
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 235
+        width: 86
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9747db9c2f4dcb49bd41a6a75327888
+      internalID: -1087522529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Boat_156
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 236
+        width: 83
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53ae2f5138767004d907a0ef24e3a623
+      internalID: -1505372311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Boat_157
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 190
+        width: 68
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d13f6c4717e81b24284013ec86d7189c
+      internalID: -993203702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Boat_158
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 189
+        width: 78
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9f09cac091a9c24387739004c18546e
+      internalID: 1202663111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Boat_159
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 191
+        width: 75
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0e1d3ed37e6da744866b97cb5e97e66
+      internalID: -998597570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Boat_160
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 191
+        width: 74
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a2fc16677bda5946a4f91ba2f1c9277
+      internalID: -1950310484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Boat_161
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 192
+        width: 75
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7663b9f8fd1c8c4198cc5a57a02ad77
+      internalID: -1215551978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Boat_162
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 191
+        width: 78
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de9222a4211002447af836573ca953f4
+      internalID: 2002795611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Boat_163
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 192
+        width: 76
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02c32534077a2584788d78683cf8bc13
+      internalID: -1635651480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Boat_164
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 193
+        width: 75
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01d6cebbe53fc2e4d85c6ddfd2e8ff0d
+      internalID: 1183680210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Boat_165
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 192
+        width: 76
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c746ce7dd90fb91489fa1665270edc8c
+      internalID: -863143629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Boat_166
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 145
+        width: 61
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5ad5d460b3e1e44cb7e2f3f75ee2eb8
+      internalID: 863972621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Boat_167
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 146
+        width: 67
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b53b4545041d1f548a6ea32bae659dc6
+      internalID: -1817237035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Boat_168
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 147
+        width: 67
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05da330c72426ef44b0ccf89408c190f
+      internalID: -569053833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Boat_169
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 148
+        width: 60
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66c77c5ddc642224da237fe674d68120
+      internalID: -1328664347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Boat_170
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 147
+        width: 67
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba6adfd6b2b7d80459415a9c5caa78a7
+      internalID: -362046104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Boat_171
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 147
+        width: 66
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c971d76efb351584da29cea57d68329d
+      internalID: -1621884027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Boat_172
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 148
+        width: 67
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f8a0fb204be64842800e79786a4bb46
+      internalID: -1745711134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Boat_173
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 148
+        width: 62
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41cae12fe1ede14449a44ac2722f074e
+      internalID: 389154857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Boat_174
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 147
+        width: 66
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3b48867690e92442ae2e119a1b09b30
+      internalID: 1781807607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Boat_175
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 106
+        width: 70
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30923951c84fb534ca706fb578db61e9
+      internalID: -335586016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Boat_176
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 106
+        width: 68
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34d452e77331af34da7c444913b7324b
+      internalID: 1238405032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Boat_177
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 106
+        width: 69
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c59e85230fd0584ba77d2600b27c193
+      internalID: 1300049351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Boat_178
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 106
+        width: 68
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2868ffd8472751448aa770864b7426ab
+      internalID: -611604206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Boat_179
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 106
+        width: 69
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c930bddff353b824bbd907855c8b7ccf
+      internalID: 1565702873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Boat_180
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 106
+        width: 69
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 569a46c067a439543baa1ff9bf9a5262
+      internalID: 714839299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Boat_181
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 106
+        width: 69
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4d999fb5d48e0d438aa505945d0a431
+      internalID: -1420208736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Boat_182
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 106
+        width: 68
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e25af53b3ec89f14fb1eeb339ac4fd71
+      internalID: 573764127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Boat_183
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 105
+        width: 68
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beb8859b95c92624c804adad279e8898
+      internalID: 220310264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Boat_184
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 59
+        width: 74
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e32bdcc019c561468a254ed49b3ac94
+      internalID: -1178140898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Boat_185
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 60
+        width: 75
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1052b14549b5894c98a23b012339550
+      internalID: 1038698481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Boat_186
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 61
+        width: 76
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b62770a7ae91a4c41b76448a7e29ad74
+      internalID: -2021706409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Boat_187
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 62
+        width: 77
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc30effa272b7ba458eac4d9fc118dbc
+      internalID: -1127831005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Boat_188
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 61
+        width: 76
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37d1338d3a48a0a4b8650addf2def1c2
+      internalID: 1651338380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Boat_189
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 60
+        width: 75
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f0cd9935af46cb478f1f8f48ba4ed6a
+      internalID: -526777903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Boat_190
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 61
+        width: 76
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa5da052543d87647b293b91cc20575e
+      internalID: -689465648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Boat_191
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 60
+        width: 75
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c22a9ec8fce6dd845aa4949dc8437ab9
+      internalID: -794624442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Boat_192
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 61
+        width: 77
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd1ab6bf8862d14468f78cf8146a740d
+      internalID: 1898206206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Boat_193
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 14
+        width: 62
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c6ed6f579aa58a48825ae57619a68ee
+      internalID: 2014821461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Boat_194
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 14
+        width: 63
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04ef567d3a504e34b8d5d1ce7c07ded7
+      internalID: 1052718811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Boat_195
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 14
+        width: 65
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f794e645bb4eb14da9ed5144d429731
+      internalID: 887718692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Boat_196
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 14
+        width: 66
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b258a188d98f7744aa9f31ae0fe3c5f4
+      internalID: 1698503760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Boat_197
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 14
+        width: 65
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4dee154dcc6cdf41b3ef89429ad2f99
+      internalID: -585272653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Boat_198
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 13
+        width: 63
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 169f2253010efab439e7a65c0409c761
+      internalID: -2055739262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Boat_199
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 14
+        width: 64
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e4f22c7de88a884bb63cfb9f7562a19
+      internalID: -668740561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Boat_200
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 15
+        width: 66
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4164a33eafebdd142bfda69b4bf31fbd
+      internalID: 879192816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Heroes of Might and Magic 2 - Boat_201
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 14
+        width: 65
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08a3e5f35040b254a90592fd1896d2c5
+      internalID: 1297071134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      PC Computer - Heroes of Might and Magic 2 - Boat_202: -1304511537
+      PC Computer - Heroes of Might and Magic 2 - Boat_0: 198369684
+      PC Computer - Heroes of Might and Magic 2 - Boat_198: -2055739262
+      PC Computer - Heroes of Might and Magic 2 - Boat_7: 1219578526
+      PC Computer - Heroes of Might and Magic 2 - Boat_73: 701829945
+      PC Computer - Heroes of Might and Magic 2 - Boat_185: 1038698481
+      PC Computer - Heroes of Might and Magic 2 - Boat_42: 865580256
+      PC Computer - Heroes of Might and Magic 2 - Boat_14: -79034251
+      PC Computer - Heroes of Might and Magic 2 - Boat_20: -626093699
+      PC Computer - Heroes of Might and Magic 2 - Boat_97: 2051073225
+      PC Computer - Heroes of Might and Magic 2 - Boat_10: -1301525596
+      PC Computer - Heroes of Might and Magic 2 - Boat_72: 539159380
+      PC Computer - Heroes of Might and Magic 2 - Boat_48: -1228812770
+      PC Computer - Heroes of Might and Magic 2 - Boat_151: -1194146457
+      PC Computer - Heroes of Might and Magic 2 - Boat_81: -1984436338
+      PC Computer - Heroes of Might and Magic 2 - Boat_3: 840969724
+      PC Computer - Heroes of Might and Magic 2 - Boat_88: -462188924
+      PC Computer - Heroes of Might and Magic 2 - Boat_89: -452349160
+      PC Computer - Heroes of Might and Magic 2 - Boat_79: -532981616
+      PC Computer - Heroes of Might and Magic 2 - Boat_16: -1995170604
+      PC Computer - Heroes of Might and Magic 2 - Boat_24: -1091271106
+      PC Computer - Heroes of Might and Magic 2 - Boat_113: 2082781528
+      PC Computer - Heroes of Might and Magic 2 - Boat_152: -1873656640
+      PC Computer - Heroes of Might and Magic 2 - Boat_80: -1033907096
+      PC Computer - Heroes of Might and Magic 2 - Boat_68: -510976987
+      PC Computer - Heroes of Might and Magic 2 - Boat_189: -526777903
+      PC Computer - Heroes of Might and Magic 2 - Boat_147: -1609748370
+      PC Computer - Heroes of Might and Magic 2 - Boat_102: 1208817345
+      PC Computer - Heroes of Might and Magic 2 - Boat_120: 1361045662
+      PC Computer - Heroes of Might and Magic 2 - Boat_153: 1789558658
+      PC Computer - Heroes of Might and Magic 2 - Boat_30: -62189927
+      PC Computer - Heroes of Might and Magic 2 - Boat_146: -55801507
+      PC Computer - Heroes of Might and Magic 2 - Boat_56: -479265607
+      PC Computer - Heroes of Might and Magic 2 - Boat_142: 955499431
+      PC Computer - Heroes of Might and Magic 2 - Boat_149: -1141823328
+      PC Computer - Heroes of Might and Magic 2 - Boat_8: -1376838795
+      PC Computer - Heroes of Might and Magic 2 - Boat_60: 1590741765
+      PC Computer - Heroes of Might and Magic 2 - Boat_96: -1513572809
+      PC Computer - Heroes of Might and Magic 2 - Boat_156: -1505372311
+      PC Computer - Heroes of Might and Magic 2 - Boat_2: -578256201
+      PC Computer - Heroes of Might and Magic 2 - Boat_12: -200783710
+      PC Computer - Heroes of Might and Magic 2 - Boat_26: 1978774007
+      PC Computer - Heroes of Might and Magic 2 - Boat_122: 1069985839
+      PC Computer - Heroes of Might and Magic 2 - Boat_193: 2014821461
+      PC Computer - Heroes of Might and Magic 2 - Boat_104: 894788013
+      PC Computer - Heroes of Might and Magic 2 - Boat_118: -574071786
+      PC Computer - Heroes of Might and Magic 2 - Boat_61: -57011986
+      PC Computer - Heroes of Might and Magic 2 - Boat_94: 112434575
+      PC Computer - Heroes of Might and Magic 2 - Boat_141: -1393349261
+      PC Computer - Heroes of Might and Magic 2 - Boat_21: 1932425653
+      PC Computer - Heroes of Might and Magic 2 - Boat_55: 285870662
+      PC Computer - Heroes of Might and Magic 2 - Boat_179: 1565702873
+      PC Computer - Heroes of Might and Magic 2 - Boat_93: -217709683
+      PC Computer - Heroes of Might and Magic 2 - Boat_109: 309958869
+      PC Computer - Heroes of Might and Magic 2 - Boat_9: 408748015
+      PC Computer - Heroes of Might and Magic 2 - Boat_33: 1510099446
+      PC Computer - Heroes of Might and Magic 2 - Boat_77: 1768422303
+      PC Computer - Heroes of Might and Magic 2 - Boat_84: -1198105891
+      PC Computer - Heroes of Might and Magic 2 - Boat_106: -1677051856
+      PC Computer - Heroes of Might and Magic 2 - Boat_103: -171266705
+      PC Computer - Heroes of Might and Magic 2 - Boat_172: -1745711134
+      PC Computer - Heroes of Might and Magic 2 - Boat_133: 819348353
+      PC Computer - Heroes of Might and Magic 2 - Boat_41: -186417436
+      PC Computer - Heroes of Might and Magic 2 - Boat_110: 1305764655
+      PC Computer - Heroes of Might and Magic 2 - Boat_46: -690716932
+      PC Computer - Heroes of Might and Magic 2 - Boat_167: -1817237035
+      PC Computer - Heroes of Might and Magic 2 - Boat_174: 1781807607
+      PC Computer - Heroes of Might and Magic 2 - Boat_27: -1335726981
+      PC Computer - Heroes of Might and Magic 2 - Boat_34: -1505244616
+      PC Computer - Heroes of Might and Magic 2 - Boat_145: 1926861529
+      PC Computer - Heroes of Might and Magic 2 - Boat_86: 1239106252
+      PC Computer - Heroes of Might and Magic 2 - Boat_129: -1822352552
+      PC Computer - Heroes of Might and Magic 2 - Boat_131: 5734233
+      PC Computer - Heroes of Might and Magic 2 - Boat_170: -362046104
+      PC Computer - Heroes of Might and Magic 2 - Boat_74: 681204727
+      PC Computer - Heroes of Might and Magic 2 - Boat_177: 1300049351
+      PC Computer - Heroes of Might and Magic 2 - Boat_64: 1328595792
+      PC Computer - Heroes of Might and Magic 2 - Boat_22: -648808080
+      PC Computer - Heroes of Might and Magic 2 - Boat_165: -863143629
+      PC Computer - Heroes of Might and Magic 2 - Boat_119: 475137663
+      PC Computer - Heroes of Might and Magic 2 - Boat_99: -270668002
+      PC Computer - Heroes of Might and Magic 2 - Boat_43: 810584389
+      PC Computer - Heroes of Might and Magic 2 - Boat_66: 1686950551
+      PC Computer - Heroes of Might and Magic 2 - Boat_171: -1621884027
+      PC Computer - Heroes of Might and Magic 2 - Boat_132: 1794168438
+      PC Computer - Heroes of Might and Magic 2 - Boat_116: 856603601
+      PC Computer - Heroes of Might and Magic 2 - Boat_137: -1754329143
+      PC Computer - Heroes of Might and Magic 2 - Boat_6: -293764319
+      PC Computer - Heroes of Might and Magic 2 - Boat_138: -1464671163
+      PC Computer - Heroes of Might and Magic 2 - Boat_98: -587896489
+      PC Computer - Heroes of Might and Magic 2 - Boat_71: -85387058
+      PC Computer - Heroes of Might and Magic 2 - Boat_168: -569053833
+      PC Computer - Heroes of Might and Magic 2 - Boat_199: -668740561
+      PC Computer - Heroes of Might and Magic 2 - Boat_18: 1691762913
+      PC Computer - Heroes of Might and Magic 2 - Boat_169: -1328664347
+      PC Computer - Heroes of Might and Magic 2 - Boat_76: 492367815
+      PC Computer - Heroes of Might and Magic 2 - Boat_191: -794624442
+      PC Computer - Heroes of Might and Magic 2 - Boat_196: 1698503760
+      PC Computer - Heroes of Might and Magic 2 - Boat_155: -1087522529
+      PC Computer - Heroes of Might and Magic 2 - Boat_134: -725847587
+      PC Computer - Heroes of Might and Magic 2 - Boat_164: 1183680210
+      PC Computer - Heroes of Might and Magic 2 - Boat_123: -1100746034
+      PC Computer - Heroes of Might and Magic 2 - Boat_162: 2002795611
+      PC Computer - Heroes of Might and Magic 2 - Boat_182: 573764127
+      PC Computer - Heroes of Might and Magic 2 - Boat_161: -1215551978
+      PC Computer - Heroes of Might and Magic 2 - Boat_200: 879192816
+      PC Computer - Heroes of Might and Magic 2 - Boat_17: 165413342
+      PC Computer - Heroes of Might and Magic 2 - Boat_70: 18708998
+      PC Computer - Heroes of Might and Magic 2 - Boat_85: 771209236
+      PC Computer - Heroes of Might and Magic 2 - Boat_107: 1729648827
+      PC Computer - Heroes of Might and Magic 2 - Boat_128: -1751971928
+      PC Computer - Heroes of Might and Magic 2 - Boat_59: 1021089845
+      PC Computer - Heroes of Might and Magic 2 - Boat_40: 1950457661
+      PC Computer - Heroes of Might and Magic 2 - Boat_175: -335586016
+      PC Computer - Heroes of Might and Magic 2 - Boat_144: 1663363766
+      PC Computer - Heroes of Might and Magic 2 - Boat_51: -2086286448
+      PC Computer - Heroes of Might and Magic 2 - Boat_183: 220310264
+      PC Computer - Heroes of Might and Magic 2 - Boat_105: 530670116
+      PC Computer - Heroes of Might and Magic 2 - Boat_187: -1127831005
+      PC Computer - Heroes of Might and Magic 2 - Boat_31: 2012083007
+      PC Computer - Heroes of Might and Magic 2 - Boat_37: 487510424
+      PC Computer - Heroes of Might and Magic 2 - Boat_38: -964145826
+      PC Computer - Heroes of Might and Magic 2 - Boat_154: 1827225360
+      PC Computer - Heroes of Might and Magic 2 - Boat_127: 500721540
+      PC Computer - Heroes of Might and Magic 2 - Boat_5: -875830289
+      PC Computer - Heroes of Might and Magic 2 - Boat_194: 1052718811
+      PC Computer - Heroes of Might and Magic 2 - Boat_114: -663222988
+      PC Computer - Heroes of Might and Magic 2 - Boat_135: 1374096641
+      PC Computer - Heroes of Might and Magic 2 - Boat_32: -1656421561
+      PC Computer - Heroes of Might and Magic 2 - Boat_29: 471346156
+      PC Computer - Heroes of Might and Magic 2 - Boat_195: 887718692
+      PC Computer - Heroes of Might and Magic 2 - Boat_23: -1308329679
+      PC Computer - Heroes of Might and Magic 2 - Boat_39: 1437698592
+      PC Computer - Heroes of Might and Magic 2 - Boat_58: -691214435
+      PC Computer - Heroes of Might and Magic 2 - Boat_178: -611604206
+      PC Computer - Heroes of Might and Magic 2 - Boat_139: 1209918870
+      PC Computer - Heroes of Might and Magic 2 - Boat_124: -607452182
+      PC Computer - Heroes of Might and Magic 2 - Boat_78: 880766609
+      PC Computer - Heroes of Might and Magic 2 - Boat_35: 1231152297
+      PC Computer - Heroes of Might and Magic 2 - Boat_44: -1292099245
+      PC Computer - Heroes of Might and Magic 2 - Boat_45: -767447527
+      PC Computer - Heroes of Might and Magic 2 - Boat_53: -1894768417
+      PC Computer - Heroes of Might and Magic 2 - Boat_95: 84804597
+      PC Computer - Heroes of Might and Magic 2 - Boat_19: -904279202
+      PC Computer - Heroes of Might and Magic 2 - Boat_150: -280527621
+      PC Computer - Heroes of Might and Magic 2 - Boat_90: -1561733559
+      PC Computer - Heroes of Might and Magic 2 - Boat_1: -575240333
+      PC Computer - Heroes of Might and Magic 2 - Boat_13: 230134634
+      PC Computer - Heroes of Might and Magic 2 - Boat_108: 595543961
+      PC Computer - Heroes of Might and Magic 2 - Boat_188: 1651338380
+      PC Computer - Heroes of Might and Magic 2 - Boat_180: 714839299
+      PC Computer - Heroes of Might and Magic 2 - Boat_190: -689465648
+      PC Computer - Heroes of Might and Magic 2 - Boat_126: -1339364276
+      PC Computer - Heroes of Might and Magic 2 - Boat_36: -1933677902
+      PC Computer - Heroes of Might and Magic 2 - Boat_176: 1238405032
+      PC Computer - Heroes of Might and Magic 2 - Boat_57: -1759487537
+      PC Computer - Heroes of Might and Magic 2 - Boat_148: -1922360362
+      PC Computer - Heroes of Might and Magic 2 - Boat_49: 1895363847
+      PC Computer - Heroes of Might and Magic 2 - Boat_47: -2135290771
+      PC Computer - Heroes of Might and Magic 2 - Boat_101: 553526572
+      PC Computer - Heroes of Might and Magic 2 - Boat_158: 1202663111
+      PC Computer - Heroes of Might and Magic 2 - Boat_28: -719757684
+      PC Computer - Heroes of Might and Magic 2 - Boat_11: -1628542939
+      PC Computer - Heroes of Might and Magic 2 - Boat_166: 863972621
+      PC Computer - Heroes of Might and Magic 2 - Boat_65: 56331264
+      PC Computer - Heroes of Might and Magic 2 - Boat_69: -1830618183
+      PC Computer - Heroes of Might and Magic 2 - Boat_62: -1482210561
+      PC Computer - Heroes of Might and Magic 2 - Boat_157: -993203702
+      PC Computer - Heroes of Might and Magic 2 - Boat_143: -2120656401
+      PC Computer - Heroes of Might and Magic 2 - Boat_163: -1635651480
+      PC Computer - Heroes of Might and Magic 2 - Boat_82: 969554468
+      PC Computer - Heroes of Might and Magic 2 - Boat_83: 1382362018
+      PC Computer - Heroes of Might and Magic 2 - Boat_181: -1420208736
+      PC Computer - Heroes of Might and Magic 2 - Boat_184: -1178140898
+      PC Computer - Heroes of Might and Magic 2 - Boat_121: -1757965087
+      PC Computer - Heroes of Might and Magic 2 - Boat_186: -2021706409
+      PC Computer - Heroes of Might and Magic 2 - Boat_75: -332398570
+      PC Computer - Heroes of Might and Magic 2 - Boat_15: -611873111
+      PC Computer - Heroes of Might and Magic 2 - Boat_201: 1297071134
+      PC Computer - Heroes of Might and Magic 2 - Boat_136: -2094201921
+      PC Computer - Heroes of Might and Magic 2 - Boat_67: 1317872693
+      PC Computer - Heroes of Might and Magic 2 - Boat_63: 1734354857
+      PC Computer - Heroes of Might and Magic 2 - Boat_140: -1334897484
+      PC Computer - Heroes of Might and Magic 2 - Boat_4: 116201788
+      PC Computer - Heroes of Might and Magic 2 - Boat_125: -818109248
+      PC Computer - Heroes of Might and Magic 2 - Boat_52: -1251786312
+      PC Computer - Heroes of Might and Magic 2 - Boat_115: -951767574
+      PC Computer - Heroes of Might and Magic 2 - Boat_160: -1950310484
+      PC Computer - Heroes of Might and Magic 2 - Boat_159: -998597570
+      PC Computer - Heroes of Might and Magic 2 - Boat_91: -396777053
+      PC Computer - Heroes of Might and Magic 2 - Boat_173: 389154857
+      PC Computer - Heroes of Might and Magic 2 - Boat_25: 2083992505
+      PC Computer - Heroes of Might and Magic 2 - Boat_50: -1461873784
+      PC Computer - Heroes of Might and Magic 2 - Boat_130: -1897545009
+      PC Computer - Heroes of Might and Magic 2 - Boat_87: -1189071406
+      PC Computer - Heroes of Might and Magic 2 - Boat_92: -1747772911
+      PC Computer - Heroes of Might and Magic 2 - Boat_197: -585272653
+      PC Computer - Heroes of Might and Magic 2 - Boat_112: -1146961509
+      PC Computer - Heroes of Might and Magic 2 - Boat_54: -1110509991
+      PC Computer - Heroes of Might and Magic 2 - Boat_100: 114748358
+      PC Computer - Heroes of Might and Magic 2 - Boat_192: 1898206206
+      PC Computer - Heroes of Might and Magic 2 - Boat_117: -150142107
+      PC Computer - Heroes of Might and Magic 2 - Boat_111: 1737125767
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
