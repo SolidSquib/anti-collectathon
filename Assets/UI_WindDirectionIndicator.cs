@@ -43,12 +43,15 @@ public class UI_WindDirectionIndicator : MonoBehaviour
 
     private void SetArrowScale (Vector2 windValue)
     {
-        Vector3 newScale = Vector3.ClampMagnitude(windValue, magnitudeClamp);
-        windValueMagnitude = newScale.magnitude;;     
-        windValueMagnitude = Mathf.Clamp(windValueMagnitude / 2f, minScaleClamp, maxScaleClamp);
+        float scaleRatio = windValue.magnitude / _Wind.m_maxSpeed;
+        float targetScale = scaleRatio * maxScaleClamp;
+
+        //Vector3 newScale = Vector3.ClampMagnitude(windValue, magnitudeClamp);
+        //windValueMagnitude = newScale.magnitude;;     
+        //windValueMagnitude = Mathf.Clamp(windValueMagnitude / 2f, minScaleClamp, maxScaleClamp);
         
-        Vector3 desiredScale = new Vector3 (windValueMagnitude, windValueMagnitude, _WindArrow.transform.localScale.y);
-        Vector3 lerpedScale = Vector3.Slerp(_WindArrow.transform.localScale, desiredScale, _ScaleLerpSpeed * Time.deltaTime);
+       // Vector3 desiredScale = new Vector3 (windValueMagnitude, windValueMagnitude, _WindArrow.transform.localScale.y);
+        Vector3 lerpedScale = Vector3.Slerp(_WindArrow.transform.localScale, new Vector3(targetScale, targetScale, _WindArrow.transform.localScale.y), _ScaleLerpSpeed * Time.deltaTime);
         _WindArrow.transform.localScale = lerpedScale;
 
         //_WindArrow.transform.localScale = new Vector3 (windValueMagnitude, windValueMagnitude, _WindArrow.transform.localScale.y);

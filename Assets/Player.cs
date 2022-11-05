@@ -16,6 +16,7 @@ public class Player : MonoBehaviour
 
     public float m_rotationSpeedFactor = 1.0f;
     public List<GameObject> m_bulletPrefabs = new List<GameObject>();
+    public float m_acceleration = 1.0f;
 
     // Start is called before the first frame update
     void Start()
@@ -30,7 +31,7 @@ public class Player : MonoBehaviour
     void Update()
     {
         Vector2 windVelocity = mWind.Velocity;
-        mRigidbody.AddForce(windVelocity);
+        mRigidbody.velocity = Vector2.Lerp(mRigidbody.velocity, windVelocity, m_acceleration);
 
         Vector3 targetDirection = mRigidbody.velocity;
         Quaternion deltaRot = Quaternion.LookRotation(Vector3.forward, targetDirection.normalized);
@@ -46,7 +47,8 @@ public class Player : MonoBehaviour
     {
         if (m_bulletPrefabs.Count > 0)
         {
-            GameObject bullet = Instantiate(m_bulletPrefabs[Random.Range(0, m_bulletPrefabs.Count - 1)], transform.position, transform.rotation);
+            int index = Random.Range(0, m_bulletPrefabs.Count);
+            GameObject bullet = Instantiate(m_bulletPrefabs[index], transform.position, transform.rotation);
             Bullet bulletScript = bullet.GetComponent<Bullet>();
             if (bulletScript)
             {

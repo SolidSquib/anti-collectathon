@@ -2,14 +2,19 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+public enum EBulletType { Green, Red }
+
 [RequireComponent(typeof(Rigidbody2D))]
+[RequireComponent(typeof(Collider2D))]
 public class Bullet : MonoBehaviour
 {
     public float m_lifetime = 5.0f;
     public float m_initialVelocity = 5.0f;
+    public EBulletType m_bulletType;
 
     private float m_startTime = 0.0f;
     private Rigidbody2D m_Rigidbody;
+    private Collider2D m_collider;
 
     // Update is called once per frame
     void Update()
@@ -24,5 +29,14 @@ public class Bullet : MonoBehaviour
         m_Rigidbody.velocity = direction * m_initialVelocity;
 
         Destroy(gameObject, m_lifetime);
+    }
+
+    public void OnCollisionEnter2D(Collision2D collision)
+    {        
+        Target target = collision.collider.GetComponent<Target>();
+        if (target)
+        {
+            Destroy(gameObject);
+        }
     }
 }

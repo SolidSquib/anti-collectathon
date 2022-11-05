@@ -31,7 +31,7 @@ public class WindController : MonoBehaviour
             Vector2 touchEnd = Input.mousePosition;
             Vector2 touchDelta = touchEnd - touchStart;
 
-            Vector2 impulse = touchDelta / (Time.time - touchStartTime);
+            Vector2 impulse = (touchDelta / (Time.time - touchStartTime)) * mMouseSensitivity;
             mWind.Add(impulse);
 
             touchStartTime = 0;
