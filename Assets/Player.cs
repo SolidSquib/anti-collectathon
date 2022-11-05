@@ -4,7 +4,7 @@ using UnityEngine;
 
 [RequireComponent(typeof(WindController))]
 [RequireComponent(typeof(Wind))]
-public class PlayerObject : MonoBehaviour
+public class Player : MonoBehaviour
 {
     private WindController mController;
     private Wind mWind;
