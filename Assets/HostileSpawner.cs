@@ -40,5 +40,6 @@ public class HostileSpawner : MonoBehaviour
         // Spawn the Enemy
         GameObject newEnemy = Instantiate(_HostilePrefab);
         newEnemy.GetComponent<HostileBehaviour>()._Player = _Player;
+        newEnemy.transform.position = spawnLocation;
     }
 }
