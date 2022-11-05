@@ -25,6 +25,8 @@ public class Player : MonoBehaviour
         mWind = GetComponent<Wind>();
         mRigidbody = GetComponent<Rigidbody2D>();
         mSprite = GetComponent<SpriteRenderer>();
+
+        remainingBullets = m_TotalBullets;
     }
 
     // Update is called once per frame
@@ -58,9 +60,29 @@ public class Player : MonoBehaviour
         }
     }
 
+    public int m_TotalBullets = 10;
+    private int remainingBullets;
+
+    // Bullets 
+    // alternate between bullet types
+    // fire with limited ammo?
+
+    public void FinalBulletDestroyed()
+    {
+        Debug.Log("Final Bullet Destroyed");
+        Debug.Break();
+    }
+
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        
+        if (collision.gameObject.tag == "Hostile")
+        {
+            // Do something
+        }
+        else if (collision.gameObject.tag == "Target")
+        {
+            // Do something
+        }
     }
 
     private void OnCollisionExit2D(Collision2D collision)

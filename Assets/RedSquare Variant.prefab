@@ -13,7 +13,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2183256335047000004, guid: 76ae406257db2e647affcb26ed36b18d, type: 3}
       propertyPath: m_Name
-      value: RedSquare
+      value: RedSquare Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 2183256335047000004, guid: 76ae406257db2e647affcb26ed36b18d, type: 3}
+      propertyPath: m_TagString
+      value: Target
       objectReference: {fileID: 0}
     - target: {fileID: 3650223992730098735, guid: 76ae406257db2e647affcb26ed36b18d, type: 3}
       propertyPath: m_Color.b

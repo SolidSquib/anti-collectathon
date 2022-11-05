@@ -16,27 +16,50 @@ public class Bullet : MonoBehaviour
     private Rigidbody2D m_Rigidbody;
     private Collider2D m_collider;
 
+    private Player _Player = null;
+
     // Update is called once per frame
     void Update()
     {
         
     }
 
-    public virtual void Fire(Vector2 direction)
+    public virtual void Fire (Vector2 direction)
     {
         m_Rigidbody = GetComponent<Rigidbody2D>();
         m_startTime = Time.time;
         m_Rigidbody.velocity = direction * m_initialVelocity;
 
-        Destroy(gameObject, m_lifetime);
+        Invoke("DestroyBullet", m_lifetime);
+        //Destroy(gameObject, m_lifetime);
     }
 
     public void OnCollisionEnter2D(Collision2D collision)
-    {        
-        Target target = collision.collider.GetComponent<Target>();
-        if (target)
+    {
+        if (collision.gameObject.tag == "Target")
         {
-            Destroy(gameObject);
+            DestroyBullet();
+
+        }
+        else if (collision.gameObject.tag == "Hostile")
+        {
+            DestroyBullet();
+
         }
     }
+
+    private void DestroyBullet()
+    {
+        if (_Player != null)
+        { 
+            _Player.FinalBulletDestroyed();
+        }
+            
+        Destroy(gameObject);
+    }
 }
+
+// Bullet
+// Target
+// Player
+// Hostile
