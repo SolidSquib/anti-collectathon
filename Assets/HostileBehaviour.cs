@@ -12,7 +12,7 @@ public class HostileBehaviour : MonoBehaviour
     public float speed = 1f;
     public float maxSpeed = 1f; 
 
-    public EBulletType m_desiredBulletType;
+    //public EBulletType m_desiredBulletType;
     public bool _DieOnBulletHit = false;
     public int _MaxBulletHits = 1;
     public bool _DieAfterBulletHitDelay = false;

@@ -16,15 +16,15 @@ public class Bullet : MonoBehaviour
     private Rigidbody2D m_Rigidbody;
     private Collider2D m_collider;
 
-    private Player _Player = null;
+    public Player _Player = null;
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
-    public virtual void Fire (Vector2 direction)
+    public virtual void Fire(Vector2 direction)
     {
         m_Rigidbody = GetComponent<Rigidbody2D>();
         m_startTime = Time.time;
@@ -51,15 +51,10 @@ public class Bullet : MonoBehaviour
     private void DestroyBullet()
     {
         if (_Player != null)
-        { 
-            _Player.FinalBulletDestroyed();
+        {
+            _Player.RemoveFiredBullet(gameObject);
         }
-            
+
         Destroy(gameObject);
     }
 }
-
-// Bullet
-// Target
-// Player
-// Hostile

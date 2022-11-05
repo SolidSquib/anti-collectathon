@@ -141,11 +141,10 @@ MonoBehaviour:
   _DespawnIcon: {fileID: 6985009117282557480, guid: bc2091a4eafcb414ba725dd587c4264b, type: 3}
   speed: 10
   maxSpeed: 3
-  m_desiredBulletType: 0
   _DieOnBulletHit: 1
-  _MaxBulletHits: 2
+  _MaxBulletHits: 4
   _DieAfterBulletHitDelay: 0
   _DieDelay: 1
-  _HasLifeDuration: 1
+  _HasLifeDuration: 0
   _MinDuration: 6
   _maxDuration: 10
