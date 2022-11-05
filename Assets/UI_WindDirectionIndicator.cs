@@ -24,20 +24,21 @@ public class UI_WindDirectionIndicator : MonoBehaviour
 
     public void Update()
     {
-        SetArrowRotation(testWindValue);
-        SetArrowScale(testWindValue);
+        SetArrowRotation(_Wind.Velocity);
+        SetArrowScale(_Wind.Velocity);
 
         // Testing
-        _CurrentArrowDirection = _WindArrow.transform.localRotation.eulerAngles;
+        //_CurrentArrowDirection = _WindArrow.transform.localRotation.eulerAngles;
     }
 
     private void SetArrowRotation (Vector2 windValue)
     {
-        windValueNormalized = windValue.normalized;
-
-        angle = Mathf.Atan2(windValueNormalized.y, windValueNormalized.x) * Mathf.Rad2Deg;
-
-        _WindArrow.transform.localRotation = Quaternion.Slerp(_WindArrow.transform.rotation, Quaternion.Euler(0f, 0f, angle), _RotateLerpSpeed * Time.deltaTime); 
+        if (windValue != Vector2.zero)
+        {
+            windValueNormalized = windValue.normalized;
+            angle = Mathf.Atan2(windValueNormalized.y, windValueNormalized.x) * Mathf.Rad2Deg;
+            _WindArrow.transform.localRotation = Quaternion.Slerp(_WindArrow.transform.rotation, Quaternion.Euler(0.0f, 0.0f, angle), _RotateLerpSpeed * Time.deltaTime);
+        }        
     }
 
     private void SetArrowScale (Vector2 windValue)
