@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 9060390299354457592}
   - component: {fileID: 5504073790065583799}
   m_Layer: 0
-  m_Name: HostileSpawningIcon
+  m_Name: HostileDespawningIcon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -75,7 +75,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
-  m_Color: {r: 0.6603774, g: 0.32084376, b: 0.32084376, a: 1}
+  m_Color: {r: 0.4665696, g: 0.8490566, b: 0.33241364, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0

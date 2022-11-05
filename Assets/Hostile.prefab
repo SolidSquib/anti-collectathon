@@ -29,8 +29,8 @@ Transform:
   m_GameObject: {fileID: 6912045761585401724}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -3.09, y: 0.99, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 0.8, y: 0.8, z: 0.8}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -138,5 +138,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rb2D: {fileID: 6912045761585401714}
   _Player: {fileID: 0}
-  speed: 5
-  maxSpeed: 2
+  _DespawnIcon: {fileID: 6985009117282557480, guid: bc2091a4eafcb414ba725dd587c4264b, type: 3}
+  speed: 10
+  maxSpeed: 3
+  m_desiredBulletType: 0
+  _DieOnBulletHit: 1
+  _MaxBulletHits: 2
+  _DieAfterBulletHitDelay: 0
+  _DieDelay: 1
+  _HasLifeDuration: 1
+  _MinDuration: 6
+  _maxDuration: 10

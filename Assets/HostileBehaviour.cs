@@ -7,6 +7,8 @@ public class HostileBehaviour : MonoBehaviour
     [SerializeField] private Rigidbody2D rb2D = null;
 
     public GameObject _Player = null;
+    public GameObject _DespawnIcon = null;
+
     public float speed = 1f;
     public float maxSpeed = 1f; 
 
@@ -15,7 +17,19 @@ public class HostileBehaviour : MonoBehaviour
     public int _MaxBulletHits = 1;
     public bool _DieAfterBulletHitDelay = false;
     public float _DieDelay = 1f;
+    public bool _HasLifeDuration = false; // Does the hostile despawn natural even if not hit?
+    public float _MinDuration = 3f;
+    public float _maxDuration = 10f;
     private int _TotalBulletImpacts = 0;
+
+    private void OnEnable()
+    {
+        if (_HasLifeDuration)
+        {
+            float variableLife = Random.Range(_MinDuration, _maxDuration);
+            Invoke("Despawn", variableLife);
+        }
+    }
 
     private void FixedUpdate()
     {
@@ -76,5 +90,13 @@ public class HostileBehaviour : MonoBehaviour
                 // score
             }
         }
+    }   
+
+    // If the Hostile has a lifecycle, we despawn it
+    private void Despawn()
+    {
+        GameObject despawnIcon = Instantiate(_DespawnIcon, null);
+        despawnIcon.transform.position = transform.position;
+        Destroy(gameObject);
     }
 }
