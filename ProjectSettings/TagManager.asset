@@ -7,6 +7,7 @@ TagManager:
   - Hostile
   - Target
   - Bullet
+  - Refueler
   layers:
   - Default
   - TransparentFX
