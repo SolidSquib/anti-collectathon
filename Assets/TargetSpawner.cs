@@ -47,7 +47,6 @@ public class TargetSpawner : MonoBehaviour
             }            
         }
     }
-
     IEnumerator SpawningLoop()
     {
         while (true)

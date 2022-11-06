@@ -31,6 +31,8 @@ public class Player : MonoBehaviour
     public int _MaxPlayerHealth = 3;
     public int _CurrentPlayerHealth = 3;
     public int _HealthLostOnHit = 1;
+    public float _DamageImmunityWindow = 1f;
+    private bool _IsDamageImmune = false;
     public bool _EndGameOnNoHealth = true;
 
     public UI_AmmoDisplay m_UIAmmoDisplay = null;
@@ -49,6 +51,7 @@ public class Player : MonoBehaviour
         UpdateBulletIndex();
         _CurrentPlayerHealth = _MaxPlayerHealth;
         UpdateHealthUI();
+        _IsDamageImmune = false;
     }
 
     // Update is called once per frame
@@ -142,6 +145,30 @@ public class Player : MonoBehaviour
         m_UIAmmoDisplay.NewAmmoCount(remainingBullets);
     }
 
+    public int StealAmmo (int idealAmount)
+    {
+        Debug.Log("StealAmmo " + idealAmount);
+        if (remainingBullets - idealAmount <= 0)
+        {
+            int tempValue = remainingBullets;
+            remainingBullets = 0;
+            UpdateBulletUI();
+            return tempValue;
+        }
+        else
+        {
+            remainingBullets -= idealAmount;
+            UpdateBulletUI();
+            return idealAmount;
+        }
+    }
+
+    public void GetBackAmmo (int ammoAmount)
+    {
+        remainingBullets += ammoAmount;
+        UpdateBulletUI();
+    }
+
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
@@ -162,8 +189,11 @@ public class Player : MonoBehaviour
 
     private void LoseHealth()
     {
+        if (_IsDamageImmune) return;
+
         Debug.Log("Took Damage");
         _CurrentPlayerHealth -= _HealthLostOnHit;
+        StartCoroutine(DamageImmunityTimer());
         UpdateHealthUI();
 
         if (_CurrentPlayerHealth <= 0 && _EndGameOnNoHealth)
@@ -171,6 +201,13 @@ public class Player : MonoBehaviour
             Debug.Log("No Health Remaining");
             Debug.Break();
         }
+    }
+
+    IEnumerator DamageImmunityTimer()
+    {
+        _IsDamageImmune = true;
+        yield return new WaitForSeconds(_DamageImmunityWindow);
+        _IsDamageImmune = false;
     }
 
     private void UpdateHealthUI()

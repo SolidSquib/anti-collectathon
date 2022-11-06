@@ -8,6 +8,7 @@ TagManager:
   - Target
   - Bullet
   - Refueler
+  - Thief
   layers:
   - Default
   - TransparentFX

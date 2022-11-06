@@ -8,21 +8,29 @@ public class HostileSpawner : MonoBehaviour
     public GameObject _HostilePrefab = null;
     public GameObject _HostileSpawningPrefab = null;
     public float _HostileSpawnDelay = 1f; // how long after the HostileWarning will the actual Hostile appear
+    public float _HostileSpawnWindowMin = 3f;
+    public float _HostileSpawnWindowMax = 10f;
 
-    public float _SpawnWindowMin = 3f;
-    public float _spawnWindowMax = 10f;
+    public GameObject _ThiefPrefab = null;
+    public float _ThiefSpawnWindowMin = 3f;
+    public float _ThiefSpawnWindowMax = 10f;
+    public float m_spawnRadius = 100.0f;
 
-    private void Start()
+    public bool _SpawnHostiles = true;
+    public bool _SpawnThief = true;
+
+    private void OnEnable ()
     {
-        StartCoroutine(SpawningLoop());
+        if(_SpawnHostiles) StartCoroutine(HostileSpawningLoop());
+        if (_SpawnThief) StartCoroutine(ThiefSpawningLoop());
     }
 
-    IEnumerator SpawningLoop()
+    IEnumerator HostileSpawningLoop()
     {
         float randomTime = 0f;
         while (true)
         {
-            randomTime = Random.Range(_SpawnWindowMin, _spawnWindowMax);
+            randomTime = Random.Range(_HostileSpawnWindowMin, _HostileSpawnWindowMax);
             yield return new WaitForSeconds(randomTime);
             StartCoroutine(SpawnHostile());
         }
@@ -41,5 +49,30 @@ public class HostileSpawner : MonoBehaviour
         GameObject newEnemy = Instantiate(_HostilePrefab);
         newEnemy.GetComponent<HostileBehaviour>()._Player = _Player;
         newEnemy.transform.position = spawnLocation;
+    }
+
+    IEnumerator ThiefSpawningLoop()
+    {
+        float randomTime = 0f;
+        //while (true)
+        //{
+            randomTime = Random.Range(_ThiefSpawnWindowMin, _ThiefSpawnWindowMax);
+            yield return new WaitForSeconds(randomTime);
+            SpawnThief();
+        //}
+    }
+
+    private void SpawnThief()
+    {
+        Vector2 spawnLocation = new Vector2(Random.Range(-m_spawnRadius, m_spawnRadius), Random.Range(-m_spawnRadius, m_spawnRadius));
+        GameObject newThief = Instantiate(_ThiefPrefab);
+        newThief.GetComponent<ThiefBehaviour>()._Player = _Player;
+        newThief.GetComponent<ThiefBehaviour>().hostileSpawner = this;
+        newThief.transform.position = spawnLocation;
+    }
+
+    public void ThiefDestroyed(GameObject thief) 
+    {
+        StartCoroutine(ThiefSpawningLoop());
     }
 }
