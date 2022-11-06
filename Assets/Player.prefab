@@ -50,7 +50,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 567765006f4f45748b77b3d4aa94b8d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMouseSensitivity: 0.001
+  mMouseSensitivity: 0.01
 --- !u!114 &5741738567981979256
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -67,11 +67,19 @@ MonoBehaviour:
   m_bulletPrefabs:
   - {fileID: 7251731646088348469, guid: 95698c2163048364086da38fef9a6970, type: 3}
   - {fileID: 7113914203177287260, guid: 68afb49a2b42bec489436215cba614b9, type: 3}
-  m_acceleration: 1
-  m_TotalBullets: 10
+  m_acceleration: 0.05
   m_rotationDampScale: 0.1
   m_minWindAccelerationScale: 0.1
   m_maxSpeed: 7
+  m_jinkMagnitude: 5
+  m_jinkCooldown: 0.5
+  m_jinkRadialImpulseMin: 0.2
+  m_jinkRadialImpulseMax: 1
+  m_FiredBullets: []
+  m_TotalBullets: 10
+  remainingBullets: 0
+  index: 0
+  m_UIAmmoDisplay: {fileID: 0}
 --- !u!114 &8985672539068398344
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -115,7 +123,7 @@ Rigidbody2D:
   m_LinearDrag: 0.5
   m_AngularDrag: 1
   m_GravityScale: 0
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 531d51dbdf2400c4ab627a8e3327c7da, type: 2}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0

@@ -21,6 +21,13 @@ public class Player : MonoBehaviour
     public float m_minWindAccelerationScale = 0.1f;
     public float m_maxSpeed = 7.0f;
 
+    public float m_jinkMagnitude = 5.0f;
+    public float m_jinkCooldown = 0.5f;
+    public float m_jinkRadialImpulseMin = 2.0f;
+    public float m_jinkRadialImpulseMax = 10.0f;
+    private bool m_jinkBlocked = false;
+
+
     public List<GameObject> m_FiredBullets = new List<GameObject>();
     public int m_StartingBullets = 10;
     public int remainingBullets = 0;
@@ -61,6 +68,43 @@ public class Player : MonoBehaviour
         {
             Shoot();
         }
+        
+        if (Input.GetKeyDown(KeyCode.W))
+        {
+            Jink(transform.up);
+        }
+        if (Input.GetKeyDown(KeyCode.S))
+        {
+            Jink(-transform.up);
+        }
+        if (Input.GetKeyDown(KeyCode.A))
+        {
+            Jink(-transform.right);
+        }
+        if (Input.GetKeyDown(KeyCode.D))
+        {
+            Jink(transform.right);
+        }
+    }
+
+    private void Jink(Vector3 direction)
+    {
+        if (m_jinkBlocked)
+            return;
+
+        m_rigidbody.AddForce(m_jinkMagnitude * direction, ForceMode2D.Impulse);
+        float impulse = Random.Range(m_jinkRadialImpulseMin, m_jinkRadialImpulseMax);
+        int positive = Random.Range(0, 2);
+        m_rigidbody.AddTorque(positive == 1 ? impulse : -impulse, ForceMode2D.Impulse);
+
+        StartCoroutine(JinkCooldown());
+    }
+
+    IEnumerator JinkCooldown()
+    {
+        m_jinkBlocked = true;
+        yield return new WaitForSeconds(m_jinkCooldown);
+        m_jinkBlocked = false;
     }
 
     private void FixedUpdate()
