@@ -11,12 +11,10 @@ public class UI_WindDirectionIndicator : MonoBehaviour
 
     [SerializeField] private Vector2 testWindValue; // Use for temporary values to set in editor
     [SerializeField] private Vector2 windValueNormalized; // debug
-    [SerializeField] private float minScaleClamp = 0.1f;
     [SerializeField] private float maxScaleClamp = 0.5f;
 
     [SerializeField] private float angle; // debug
     [SerializeField] private float windValueMagnitude; // debug
-    [SerializeField] private float magnitudeClamp = 1f;
     [SerializeField] private Vector3 _CurrentArrowDirection; // debug   
 
     [SerializeField] private float _ScaleLerpSpeed = 1f;

@@ -11,36 +11,48 @@ public class Player : MonoBehaviour
 {
     private WindController mController;
     private Wind mWind;
-    private Rigidbody2D mRigidbody;
+    private Rigidbody2D m_rigidbody;
     private SpriteRenderer mSprite;
 
     public float m_rotationSpeedFactor = 1.0f;
     public List<GameObject> m_bulletPrefabs = new List<GameObject>();
     public float m_acceleration = 1.0f;
+    public float m_rotationDampScale = 0.1f;
+    public float m_minWindAccelerationScale = 0.1f;
+    public float m_maxSpeed = 7.0f;
 
     // Start is called before the first frame update
     void Start()
     {
         mController = GetComponent<WindController>();
         mWind = GetComponent<Wind>();
-        mRigidbody = GetComponent<Rigidbody2D>();
+        m_rigidbody = GetComponent<Rigidbody2D>();
         mSprite = GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        Vector2 windVelocity = mWind.Velocity;
-        mRigidbody.velocity = Vector2.Lerp(mRigidbody.velocity, windVelocity, m_acceleration);
-
-        Vector3 targetDirection = mRigidbody.velocity;
-        Quaternion deltaRot = Quaternion.LookRotation(Vector3.forward, targetDirection.normalized);
-        mSprite.transform.rotation = Quaternion.Lerp(mSprite.transform.rotation, deltaRot, targetDirection.magnitude * m_rotationSpeedFactor * Time.deltaTime);
-
         if (Input.GetKeyDown(KeyCode.Space))
         {
             Shoot();
         }
+    }
+
+    private void FixedUpdate()
+    {
+        Vector2 windVelocity = mWind.Velocity;
+        float dotWind = Vector2.Dot(windVelocity.normalized, transform.up.normalized);
+        dotWind = Mathf.Clamp(dotWind, m_minWindAccelerationScale, 1);
+
+        m_rigidbody.velocity = Vector2.Lerp(m_rigidbody.velocity, transform.up * windVelocity.magnitude/**dotWind*/, m_acceleration);
+        m_rigidbody.velocity = Vector3.ClampMagnitude(m_rigidbody.velocity, m_maxSpeed);
+
+        // Rotate slowly to facing
+        float deltaAngle = Mathf.DeltaAngle(Quaternion.LookRotation(Vector3.forward, -windVelocity.normalized).eulerAngles.z, transform.rotation.eulerAngles.z);
+        float torque = deltaAngle - m_rigidbody.angularVelocity;
+        torque = torque * m_rotationDampScale;
+        m_rigidbody.AddTorque(torque* m_rigidbody.inertia);        
     }
 
     private void Shoot()
@@ -52,7 +64,7 @@ public class Player : MonoBehaviour
             Bullet bulletScript = bullet.GetComponent<Bullet>();
             if (bulletScript)
             {
-                bulletScript.Fire(-transform.up);
+                bulletScript.Fire(transform.up);
             }
             else { Destroy(bullet); }
         }
