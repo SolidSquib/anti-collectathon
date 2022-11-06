@@ -21,6 +21,14 @@ public class Player : MonoBehaviour
     public float m_minWindAccelerationScale = 0.1f;
     public float m_maxSpeed = 7.0f;
 
+    public List<GameObject> m_FiredBullets = new List<GameObject>();
+    public int m_TotalBullets = 10;
+    public int remainingBullets = 0;
+    public int index = 0;
+
+    public UI_AmmoDisplay m_UIAmmoDisplay = null;
+    
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -28,6 +36,9 @@ public class Player : MonoBehaviour
         mWind = GetComponent<Wind>();
         m_rigidbody = GetComponent<Rigidbody2D>();
         mSprite = GetComponent<SpriteRenderer>();
+
+        remainingBullets = m_TotalBullets;
+        UpdateBulletIndex();
     }
 
     // Update is called once per frame
@@ -57,22 +68,78 @@ public class Player : MonoBehaviour
 
     private void Shoot()
     {
+        if (remainingBullets <= 0)
+            return;
+
         if (m_bulletPrefabs.Count > 0)
         {
-            int index = Random.Range(0, m_bulletPrefabs.Count);
             GameObject bullet = Instantiate(m_bulletPrefabs[index], transform.position, transform.rotation);
             Bullet bulletScript = bullet.GetComponent<Bullet>();
             if (bulletScript)
             {
-                bulletScript.Fire(transform.up);
+                // This is a cheesey way of getting the last fired bullet to message us
+                remainingBullets--;                
+                bulletScript._Player = this;
+                m_FiredBullets.Add(bullet);
+                bulletScript.Fire(-transform.up);
             }
             else { Destroy(bullet); }
+
+            UpdateBulletIndex();
         }
     }
 
+    public void RemoveFiredBullet(GameObject bullet)
+    {
+        if (m_FiredBullets.Contains(bullet))
+        {
+            m_FiredBullets.Remove(bullet);
+
+            if (m_FiredBullets.Count <= 0 && remainingBullets <= 0)
+            {
+                FinalBulletDestroyed();
+            }
+        }
+    }
+
+    public void FinalBulletDestroyed()
+    {
+        Debug.Log("Final Bullet Destroyed");
+        Debug.Break();
+    }
+
+    private void UpdateBulletIndex()
+    {
+        index = Random.Range(0, m_bulletPrefabs.Count);
+        UpdateBulletUI();
+    }
+
+    private void UpdateBulletUI()
+    {
+        if (remainingBullets <= 0)
+        {
+            m_UIAmmoDisplay.NextAmmoType(new Color(0,0,0));
+
+        }
+        else
+        {
+            m_UIAmmoDisplay.NextAmmoType(m_bulletPrefabs[index].GetComponent<SpriteRenderer>().color);
+        }
+
+        m_UIAmmoDisplay.NewAmmoCount(remainingBullets);
+    }
+
+
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        
+        if (collision.gameObject.tag == "Hostile")
+        {
+            // Do something
+        }
+        else if (collision.gameObject.tag == "Target")
+        {
+            // Do something
+        }
     }
 
     private void OnCollisionExit2D(Collision2D collision)

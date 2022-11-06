@@ -18,7 +18,7 @@ GameObject:
   - component: {fileID: 294647936171237783}
   m_Layer: 3
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -68,6 +68,7 @@ MonoBehaviour:
   - {fileID: 7251731646088348469, guid: 95698c2163048364086da38fef9a6970, type: 3}
   - {fileID: 7113914203177287260, guid: 68afb49a2b42bec489436215cba614b9, type: 3}
   m_acceleration: 1
+  m_TotalBullets: 10
   m_rotationDampScale: 0.1
   m_minWindAccelerationScale: 0.1
   m_maxSpeed: 7

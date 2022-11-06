@@ -12,7 +12,7 @@ public class HostileBehaviour : MonoBehaviour
     public float speed = 1f;
     public float maxSpeed = 1f; 
 
-    public EBulletType m_desiredBulletType;
+    //public EBulletType m_desiredBulletType;
     public bool _DieOnBulletHit = false;
     public int _MaxBulletHits = 1;
     public bool _DieAfterBulletHitDelay = false;
@@ -27,7 +27,7 @@ public class HostileBehaviour : MonoBehaviour
         if (_HasLifeDuration)
         {
             float variableLife = Random.Range(_MinDuration, _maxDuration);
-            Invoke("Despawn", variableLife);
+            Invoke("NaturalDespawn", variableLife);
         }
     }
 
@@ -62,38 +62,34 @@ public class HostileBehaviour : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        Debug.Log("collision detected");
-        Bullet bullet = collision.collider.GetComponent<Bullet>();
-        if (bullet)
+        if (collision.gameObject.tag == "Bullet")
         {
-            Debug.Log("bullet collision detected");
-            if (bullet.m_bulletType == m_desiredBulletType)
+            _TotalBulletImpacts++;
+
+            // Do we want to kill the hostile after x Bullet Hits?
+            if (_DieOnBulletHit && _TotalBulletImpacts >= _MaxBulletHits)
             {
-                // more score
-
-                _TotalBulletImpacts++;
-
-                // Do we want to kill the hostile after x Bullet Hits?
-                if (_DieOnBulletHit && _TotalBulletImpacts >= _MaxBulletHits)
-                {
-                    Destroy(gameObject);
-                }
-                // Do we want to despawn the hostile after x duration from a Bullet hit instead?
-                else if (_DieAfterBulletHitDelay)
-                {
-                    Destroy(gameObject, _DieDelay);
-
-                }
+                Destroy(gameObject);
             }
-            else
+            // Do we want to despawn the hostile after x duration from a Bullet hit instead?
+            else if (_DieAfterBulletHitDelay)
             {
-                // score
+                Destroy(gameObject, _DieDelay);
+
             }
+        }
+        else if (collision.gameObject.tag == "Player")
+        {
+            // Do something
+        }
+        else if (collision.gameObject.tag == "Target")
+        {
+            NaturalDespawn();
         }
     }   
 
-    // If the Hostile has a lifecycle, we despawn it
-    private void Despawn()
+    // If the Hostile has a natural lifecycle, we despawn it
+    private void NaturalDespawn()
     {
         GameObject despawnIcon = Instantiate(_DespawnIcon, null);
         despawnIcon.transform.position = transform.position;

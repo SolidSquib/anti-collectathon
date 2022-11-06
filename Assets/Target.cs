@@ -45,9 +45,9 @@ public class Target : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         Debug.Log("collision detected");
-        Bullet bullet = collision.collider.GetComponent<Bullet>();
-        if (bullet)
+        if (collision.gameObject.tag == "Bullet")
         {
+            Bullet bullet = collision.gameObject.GetComponent<Bullet>();
             Debug.Log("bullet collision detected");
             if (bullet.m_bulletType == m_desiredBulletType)
             {
@@ -59,6 +59,14 @@ public class Target : MonoBehaviour
             }
 
             DestroyTarget();
+        }
+        else if (collision.gameObject.tag == "Player")
+        {
+            // Do something
+        }
+        else if (collision.gameObject.tag == "Hostile")
+        {
+            // Do something
         }
     }
 }
