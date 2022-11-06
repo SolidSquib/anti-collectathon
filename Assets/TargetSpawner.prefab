@@ -47,7 +47,7 @@ MonoBehaviour:
   m_targetPrefabs:
   - {fileID: 2183256335047000004, guid: 76ae406257db2e647affcb26ed36b18d, type: 3}
   - {fileID: 3066003145664454536, guid: 20c701adfc8d3c846931a26849c25c15, type: 3}
-  m_spawnRadius: 7
+  m_spawnRadius: 100
   m_minSpawnDelay: 1
   m_maxSpawnDelay: 1
   m_minSpawnedTargets: 1

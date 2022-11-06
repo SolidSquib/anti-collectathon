@@ -12,7 +12,7 @@ public class Wind : MonoBehaviour
 
     public void Add(Vector2 velocity)
     {
-        Velocity += velocity;
+        Velocity = velocity;
         Velocity = Vector2.ClampMagnitude(Velocity, m_maxSpeed);
     }
 
