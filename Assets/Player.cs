@@ -22,13 +22,21 @@ public class Player : MonoBehaviour
     public float m_maxSpeed = 7.0f;
 
     public List<GameObject> m_FiredBullets = new List<GameObject>();
-    public int m_TotalBullets = 10;
+    public int m_StartingBullets = 10;
     public int remainingBullets = 0;
+    public int _AmmoOnRefuel = 5;
     public int index = 0;
+    public bool _EndGameOnNoAmmo = false;
+
+    public int _MaxPlayerHealth = 3;
+    public int _CurrentPlayerHealth = 3;
+    public int _HealthLostOnHit = 1;
+    public bool _EndGameOnNoHealth = true;
 
     public UI_AmmoDisplay m_UIAmmoDisplay = null;
-    
-    
+    public UI_HealthDisplay m_UIHealthDisplay = null;
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -37,8 +45,10 @@ public class Player : MonoBehaviour
         m_rigidbody = GetComponent<Rigidbody2D>();
         mSprite = GetComponent<SpriteRenderer>();
 
-        remainingBullets = m_TotalBullets;
+        remainingBullets = m_StartingBullets;
         UpdateBulletIndex();
+        _CurrentPlayerHealth = _MaxPlayerHealth;
+        UpdateHealthUI();
     }
 
     // Update is called once per frame
@@ -104,6 +114,9 @@ public class Player : MonoBehaviour
 
     public void FinalBulletDestroyed()
     {
+        if (!_EndGameOnNoAmmo)
+            return;
+
         Debug.Log("Final Bullet Destroyed");
         Debug.Break();
     }
@@ -134,12 +147,35 @@ public class Player : MonoBehaviour
     {
         if (collision.gameObject.tag == "Hostile")
         {
-            // Do something
+            LoseHealth();
         }
         else if (collision.gameObject.tag == "Target")
         {
             // Do something
         }
+        else if (collision.gameObject.tag == "Refueler")
+        {
+            remainingBullets += _AmmoOnRefuel;
+            UpdateBulletUI();
+        }
+    }
+
+    private void LoseHealth()
+    {
+        Debug.Log("Took Damage");
+        _CurrentPlayerHealth -= _HealthLostOnHit;
+        UpdateHealthUI();
+
+        if (_CurrentPlayerHealth <= 0 && _EndGameOnNoHealth)
+        {
+            Debug.Log("No Health Remaining");
+            Debug.Break();
+        }
+    }
+
+    private void UpdateHealthUI()
+    {
+        m_UIHealthDisplay.NewHealthValue(_CurrentPlayerHealth);
     }
 
     private void OnCollisionExit2D(Collision2D collision)
