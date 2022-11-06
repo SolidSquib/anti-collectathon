@@ -76,10 +76,18 @@ MonoBehaviour:
   m_jinkRadialImpulseMin: 0.2
   m_jinkRadialImpulseMax: 1
   m_FiredBullets: []
-  m_TotalBullets: 10
+  m_StartingBullets: 10
   remainingBullets: 0
+  _AmmoOnRefuel: 5
   index: 0
+  _EndGameOnNoAmmo: 0
+  _MaxPlayerHealth: 3
+  _CurrentPlayerHealth: 3
+  _HealthLostOnHit: 1
+  _DamageImmunityWindow: 1
+  _EndGameOnNoHealth: 1
   m_UIAmmoDisplay: {fileID: 0}
+  m_UIHealthDisplay: {fileID: 0}
 --- !u!114 &8985672539068398344
 MonoBehaviour:
   m_ObjectHideFlags: 0

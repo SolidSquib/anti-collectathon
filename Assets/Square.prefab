@@ -126,6 +126,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_desiredBulletType: 0
+  m_lifeTime: 10
+  m_indicatorPrefab: {fileID: 6714043869966127084, guid: b897c3839ff9b5c4d8c810483ec36352, type: 3}
+  m_canvas: {fileID: 0}
 --- !u!50 &4123616905057819667
 Rigidbody2D:
   serializedVersion: 4

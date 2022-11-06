@@ -8,15 +8,43 @@ public class Target : MonoBehaviour
 {
     public EBulletType m_desiredBulletType;
     public float m_lifeTime = 10.0f;
+    public GameObject m_indicatorPrefab = null;
+    public Canvas m_canvas = null;
 
     TargetSpawner m_parentSpawner = null;
     SpriteRenderer m_spriteRenderer = null;
+
+    private PositionIndicatorArrow m_indicator;
 
     // Start is called before the first frame update
     void Start()
     {
         m_parentSpawner = GetComponentInParent<TargetSpawner>();
         m_spriteRenderer = GetComponent<SpriteRenderer>();
+        m_canvas = FindObjectOfType<Canvas>();
+
+        if (m_canvas != null && m_indicatorPrefab != null)
+        {
+            GameObject newObject = Instantiate(m_indicatorPrefab, m_canvas.transform);
+            m_indicator = newObject.GetComponent<PositionIndicatorArrow>();
+            if (m_indicator == null)
+            {
+                Destroy(newObject);
+            }
+            else
+            {
+                m_indicator.m_player = FindObjectOfType<Player>();
+                m_indicator.m_target = transform;
+            }
+        }
+    }
+
+    private void OnDestroy()
+    {
+        if (m_indicator != null)
+        {
+            Destroy(m_indicator.gameObject);
+        }
     }
 
     // Update is called once per frame
