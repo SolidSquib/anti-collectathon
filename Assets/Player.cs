@@ -81,7 +81,7 @@ public class Player : MonoBehaviour
                 remainingBullets--;                
                 bulletScript._Player = this;
                 m_FiredBullets.Add(bullet);
-                bulletScript.Fire(-transform.up);
+                bulletScript.Fire(transform.up);
             }
             else { Destroy(bullet); }
 
